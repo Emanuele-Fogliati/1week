@@ -28,12 +28,19 @@ Pagamento: 50% all'ok, 50% alla consegna. Bonifico, PayPal o Satispay. Canone co
 
 **Perché 149 € e non 500**: serve chiudere in 7 giorni, non massimizzare il primo cliente. Il prezzo basso elimina l'obiezione. Dopo 3 clienti si alza.
 
-## A chi proporlo (in ordine)
-1. Persone che Manu conosce che hanno un'attività, o parenti/amici di amici. Conversione molto più alta di chiunque altro.
-2. Attività del quartiere senza sito: Manu entra di persona, 2 minuti, mostra la demo sul telefono.
-3. NON mandare messaggi a freddo in massa a numeri presi da Google Maps. È spam, e in Italia vale anche il GDPR.
+## A chi proporlo
+Manu non ha contatti con attività, quindi si va a freddo, **di persona**. È l'unico canale a freddo pulito:
+- Email o WhatsApp a freddo in massa: no. In Italia per il marketing via email/messaggi serve il consenso anche verso le aziende (Codice Privacy art. 130), e comunque è spam.
+- Entrare in negozio e parlare col titolare: legale, e converte molto di più.
 
-Come trovare chi non ha il sito: Google Maps → cerca "parrucchiere [città]" → apri le schede → quelle senza "Sito web" sono i candidati. Posso farti io una lista se mi dici zona e categoria, ma il contatto lo fai tu, di persona o a chi conosci.
+### Il metodo "sito già fatto"
+1. Manu mi dice città e quartiere.
+2. Io cerco su Google Maps 10 attività della zona senza sito (parrucchieri, estetiste, bar, artigiani, B&B) con buone recensioni vere.
+3. Per le 5 migliori preparo **una bozza di sito col loro nome, servizi e orari presi dalla scheda pubblica**, non pubblicata e non indicizzata, solo da mostrare.
+4. Manu passa in negozio nelle ore morte (metà mattina, primo pomeriggio), mostra la bozza sul telefono: "l'ho già fatto per voi, se vi piace è vostro a 149 €".
+5. Se dice no, la bozza si cancella. Nessuno vede un sito a loro nome senza averlo voluto.
+
+Obiettivo realistico: 10 visite, 1-2 sì. Con 2 ore al giorno sono 3-4 giorni.
 
 ## Messaggio per chi conosci (WhatsApp)
 
