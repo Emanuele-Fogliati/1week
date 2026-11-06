@@ -6,3 +6,5 @@ Esperimento: una settimana (6-13 nov 2026) per fare più soldi possibile partend
 - [A-siti-locali](A-siti-locali/): siti vetrina per attività locali (offerta, script, demo)
 - [B-fiverr](B-fiverr/): gig di traduzione e copywriting in italiano
 - [C-usato](C-usato/): vendita di oggetti inutilizzati
+- [D-italiani-monaco](D-italiani-monaco/): sito "Monaco Facile" (in pausa)
+- [E-pm-ai](E-pm-ai/): servizi di Product Management con AI (principale)

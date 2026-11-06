@@ -43,7 +43,13 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
 
-### 06/11 (sera, pivot)
+### 06/11 (sera, pivot 2)
+- Manu è **Product Manager / Product Owner**, inglese buono, a Monaco da 3 anni, sa usare l'AI, ok a 25 € di budget.
+- Cambia la gerarchia. **E nuovo e principale**: servizi PM a prezzo fisso (PRD 250 $, backlog 190 $, discovery 490 $, workflow AI 390 $), poi fractional PO mensile. Canali: LinkedIn di Manu, Upwork, Contra.
+- B (schede Amazon) declassato: vale troppo poco per il tempo di un PM. D (Monaco Facile) in pausa: il sito resta pronto, si riprende dopo.
+- Pronti: piano, profili Upwork/Contra, modello di proposta, post LinkedIn, PRD di esempio per il portfolio.
+
+### 06/11 (sera, pivot 1)
 - Costruito il sito "Monaco Facile" con la prima guida (Anmeldung, controllata su stadt.muenchen.de). Non pubblicato: manca accesso GitHub.
 - Nuovi vincoli di Manu: vive a **Monaco di Baviera**, non parla tedesco, non conosce nessuno, **niente telefono né porta a porta**, tempo pieno, budget circa 200 €.
 - **A (siti per attività locali) abbandonato**: senza rete, senza tedesco e senza contatto diretto non si vende. Materiale lasciato come archivio.
