@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>German cancellation letter generator (Kündigung) · Free, in English</title>
+<meta name="description" content="Fill in English, get a ready-to-send German cancellation letter (Kündigung) for your gym, phone, internet, energy, subscription or rental contract. Free, with translation.">
+<style>
+:root{--bg:#fafaf7;--ink:#17202a;--muted:#5b6470;--line:#e2e2da;--card:#fff;--accent:#0b6e4f;--soft:#e6f2ec;--warn:#fff6e0;--warnline:#f0d58a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:16px}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+header{padding:32px 0 8px}
+h1{font-size:clamp(26px,4.5vw,38px);line-height:1.15;margin-bottom:10px}
+.lead{color:var(--muted);font-size:18px;max-width:60ch}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0}
+@media(max-width:820px){.grid{grid-template-columns:1fr}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+label{display:block;font-weight:600;font-size:14px;margin:12px 0 4px}
+input,select,textarea{width:100%;font:inherit;padding:9px 11px;border:1px solid var(--line);border-radius:9px;background:#fff}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hint{font-size:13px;color:var(--muted);margin-top:3px}
+.out{white-space:pre-wrap;font-family:Georgia,serif;font-size:15px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px;min-height:200px}
+.tr{white-space:pre-wrap;font-size:14px;color:var(--muted);background:var(--soft);border-radius:10px;padding:14px;margin-top:12px}
+.btns{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}
+button{font:inherit;font-weight:600;padding:10px 16px;border-radius:999px;border:0;background:var(--accent);color:#fff;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.note{background:var(--warn);border:1px solid var(--warnline);border-radius:12px;padding:12px 14px;font-size:14px;margin:12px 0}
+h2{font-size:18px;margin-bottom:6px}
+footer{border-top:1px solid var(--line);margin-top:40px;padding:20px 0 40px;color:var(--muted);font-size:13px}
+@media print{header,.panel.form,.btns,.tr,.note,footer,h2{display:none!important}.grid{display:block}.panel{border:0;padding:0}.out{border:0;font-size:12pt}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Write a German cancellation letter without speaking German</h1>
+  <p class="lead">Fill in the fields in English. You get a ready-to-send letter in German, with an English translation so you know what you are signing. Free, no sign-up: your data never leaves your browser.</p>
+</header>
+
+<div class="grid">
+  <div class="panel form">
+    <label for="tipo">What do you want to cancel?</label>
+    <select id="tipo">
+      <option value="palestra">Gym (Fitnessstudio)</option>
+      <option value="telefono">Mobile phone contract</option>
+      <option value="internet">Internet / DSL / fibre</option>
+      <option value="abbonamento">Other subscription (streaming, newspaper, club...)</option>
+      <option value="corrente">Electricity or gas (Strom / Gas)</option>
+      <option value="affitto">Rental contract (as a tenant)</option>
+    </select>
+    <div id="tipoNote" class="note"></div>
+
+    <label>Your details</label>
+    <input id="nome" placeholder="First and last name">
+    <input id="via" placeholder="Street and number (e.g. Leopoldstraße 12)" style="margin-top:6px">
+    <input id="cap" placeholder="Postcode and city (e.g. 80802 München)" style="margin-top:6px">
+
+    <label>Who you are writing to</label>
+    <input id="az" placeholder="Company or landlord name">
+    <input id="azvia" placeholder="Street and number" style="margin-top:6px">
+    <input id="azcap" placeholder="Postcode and city" style="margin-top:6px">
+
+    <div class="row">
+      <div><label for="num" id="numLabel">Customer / contract number</label><input id="num" placeholder="e.g. 123456789"></div>
+      <div><label for="extra" id="extraLabel">Phone number</label><input id="extra"></div>
+    </div>
+
+    <label>From when?</label>
+    <select id="quando">
+      <option value="asap">Earliest possible date</option>
+      <option value="data">A specific date</option>
+    </select>
+    <input id="data" type="date" style="margin-top:6px;display:none">
+    <p class="hint">With "earliest possible date", the letter also asks them to confirm the exact end date in writing.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Your letter in German</h2>
+    <div id="out" class="out"></div>
+    <div class="btns">
+      <button id="copy">Copy text</button>
+      <button class="ghost" id="print">Print or save as PDF</button>
+    </div>
+    <h2>English translation</h2>
+    <div id="tr" class="tr"></div>
+  </div>
+</div>
+
+<div class="panel" style="margin-top:8px;background:#e6f2ec;border-color:#cfe5d9">
+  <h2>Need more than a cancellation?</h2>
+  <p style="margin:6px 0 12px">An English kit with 30+ ready-made German letters (landlord, deposit, job, tax office, health insurance) is in the works. Email [EMAIL] with "kit" to get it first.</p>
+</div>
+
+<footer>Information tool, not legal advice. Check your contract for the notice period and required form. Rental contracts must be cancelled with a hand-signed paper letter (§ 568 BGB): an email is not enough.</footer>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const T = {
+  palestra:{gen:"meiner Mitgliedschaft",acc:"meine Mitgliedschaft",it:"my membership",itd:"my membership",num:"Membership number",extra:null,
+    note:"Many gyms accept cancellation by email or via the \"Verträge hier kündigen\" button on their website. Check the notice period in your contract."},
+  telefono:{gen:"meines Mobilfunkvertrags",acc:"meinen Mobilfunkvertrag",it:"my mobile phone contract",itd:"my mobile phone contract",num:"Customer number",extra:"Mobile number",
+    note:"If you want to keep your number with a new provider, don't cancel here: ask the new provider for number porting (Rufnummernmitnahme)."},
+  internet:{gen:"meines Internetvertrags",acc:"meinen Internetvertrag",it:"my internet contract",itd:"my internet contract",num:"Customer number",extra:"Contract or line number",
+    note:"After the minimum term, contracts signed since 1 March 2022 can usually be cancelled with one month's notice. Check your contract."},
+  abbonamento:{gen:"meines Abonnements",acc:"mein Abonnement",it:"my subscription",itd:"my subscription",num:"Customer or subscription number",extra:null,
+    note:"For online subscriptions, look for the \"Verträge hier kündigen\" button on the website: by law it must be there."},
+  corrente:{gen:"meines Energieliefervertrags",acc:"meinen Energieliefervertrag",it:"my energy supply contract",itd:"my energy supply contract",num:"Customer number",extra:"Meter number (Zählernummer)",
+    note:"If you are only switching provider, the new provider often cancels for you. If you are moving out, give the moving date and the meter reading."},
+  affitto:{gen:"des Mietverhältnisses",acc:"das Mietverhältnis",it:"the rental contract",itd:"the rental contract",num:"Apartment number (if any)",extra:"Apartment address, if different from yours",
+    note:"Tenants have a 3-month statutory notice period (§ 573c BGB). Print the letter, sign it by hand and send it, ideally by registered mail (Einschreiben)."}
+};
+function fmt(d){ if(!d) return ""; const [y,m,g]=d.split("-"); return `${g}.${m}.${y}`; }
+function today(){ const d=new Date(); return `${String(d.getDate()).padStart(2,"0")}.${String(d.getMonth()+1).padStart(2,"0")}.${d.getFullYear()}`; }
+function v(id,ph){ const x=$(id).value.trim(); return x || ph; }
+function render(){
+  const k=$("tipo").value, t=T[k];
+  $("tipoNote").textContent=t.note;
+  $("numLabel").textContent=t.num;
+  $("extraLabel").parentElement.style.display=t.extra?"":"none";
+  if(t.extra) $("extraLabel").textContent=t.extra;
+  $("data").style.display=$("quando").value==="data"?"":"none";
+  const asap=$("quando").value==="asap"||!$("data").value, d=fmt($("data").value);
+  const nome=v("nome","[Vorname Nachname]"), num=$("num").value.trim(), extra=$("extra").value.trim();
+  const ref=[num?`${k==="palestra"?"Mitgliedsnummer":k==="affitto"?"Wohnungsnummer":"Kundennummer"}: ${num}`:"",
+    extra&&t.extra&&k!=="affitto"?`${k==="telefono"?"Rufnummer":k==="corrente"?"Zählernummer":k==="affitto"?"Mietobjekt":"Vertragsnummer"}: ${extra}`:""].filter(Boolean).join("\n");
+  const zum = asap ? "fristgerecht zum nächstmöglichen Zeitpunkt" : `fristgerecht zum ${d}, hilfsweise zum nächstmöglichen Zeitpunkt`;
+  const zumIt = asap ? "with due notice, effective at the earliest possible date" : `with due notice, effective ${d}, or alternatively at the earliest possible date`;
+  let extraDe="", extraIt="";
+  const obj = k==="affitto" ? ` über die Wohnung ${extra || (v("via","[Straße Hausnummer]")+", "+v("cap","[PLZ Ort]"))}` : "";
+  if(k==="corrente"){extraDe="\nDen Zählerstand teile ich Ihnen zum Vertragsende separat mit.";extraIt="\nI will send you the meter reading at the end of the contract separately.";}
+  if(k==="affitto"){extraDe="\nBitte teilen Sie mir einen Termin für die Wohnungsübergabe mit. Die Mietkaution bitte ich nach ordnungsgemäßer Abrechnung auf mein Konto zu überweisen.";
+    extraIt="\nPlease let me know a date for the handover of the apartment. Please transfer the rental deposit to my account after the proper final settlement.";}
+  const de=`${nome}
+${v("via","[Straße Hausnummer]")}
+${v("cap","[PLZ Ort]")}
+
+${v("az","[Firma / Vermieter]")}
+${v("azvia","[Straße Hausnummer]")}
+${v("azcap","[PLZ Ort]")}
+
+${v("cap","[Ort]").replace(/^\d{5}\s*/,"")}, ${today()}
+
+Kündigung ${t.gen}${ref?"\n"+ref:""}
+
+Sehr geehrte Damen und Herren,
+
+hiermit kündige ich ${t.acc}${obj} ${zum}.${extraDe}
+
+Bitte bestätigen Sie mir den Eingang dieser Kündigung sowie das genaue Vertragsende schriftlich.
+
+Mit freundlichen Grüßen
+
+
+${nome}`;
+  const it=`Subject: cancellation of ${t.itd}
+
+Dear Sir or Madam,
+
+I hereby cancel ${t.it} ${zumIt}.${extraIt}
+
+Please confirm in writing that you have received this cancellation and the exact end date of the contract.
+
+Kind regards
+${nome}`;
+  $("out").textContent=de; $("tr").textContent=it;
+}
+document.querySelectorAll("input,select").forEach(e=>e.addEventListener("input",render));
+$("copy").onclick=()=>{navigator.clipboard.writeText($("out").textContent).then(()=>{$("copy").textContent="Copied";setTimeout(()=>$("copy").textContent="Copy text",1500)})};
+$("print").onclick=()=>window.print();
+render();
+</script>
+</body>
+</html>
