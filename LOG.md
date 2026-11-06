@@ -44,6 +44,7 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 ## Diario
 
 ### 06/11 (sera, pivot 3)
+- Prototipo del generatore gratuito di disdette in tedesco pronto (6 tipi di contratto, traduzione italiana, stampa in PDF). In attesa della scelta di Manu.
 - Manu boccia i servizi PM ("troppo di nicchia e saturo"). Preparate 3 proposte di prodotto in F-prodotti/proposte.md. Raccomandata: kit "Germania senza tedesco" (generatore gratuito di lettere in tedesco + kit PDF 14 €).
 
 ### 06/11 (sera, pivot 2)
