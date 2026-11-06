@@ -17,7 +17,14 @@ Extra opzionali:
 - Dominio proprio (es. nomeattivita.it): costo del dominio a carico del cliente, circa 10-15 €/anno, + 30 € per configurarlo
 - Scheda Google Business sistemata (descrizione, categorie, orari, foto): +40 €
 
-Pagamento: 50% all'ok, 50% alla consegna. Bonifico, PayPal o Satispay.
+**Canone "Sito sempre aggiornato": 19 €/mese** (la parte duratura)
+- Modifiche illimitate a orari, prezzi, foto, avvisi (ferie, promozioni), entro 48 ore
+- Aggiornamento mensile della scheda Google (foto nuove, post, orari festivi)
+- Disdetta quando vuole, con un messaggio
+
+Proporre il canone già alla vendita: "149 € per farlo, poi 19 € al mese se vuoi che te lo tenga aggiornato io". 10 clienti = 190 €/mese ricorrenti.
+
+Pagamento: 50% all'ok, 50% alla consegna. Bonifico, PayPal o Satispay. Canone con addebito ricorrente PayPal o bonifico mensile.
 
 **Perché 149 € e non 500**: serve chiudere in 7 giorni, non massimizzare il primo cliente. Il prezzo basso elimina l'obiezione. Dopo 3 clienti si alza.
 
@@ -49,4 +56,6 @@ La bozza gratis è l'arma: Claude la prepara in un'ora, il cliente vede il suo s
 Niente recensioni inventate sul sito: solo quelle vere, se il cliente vuole linkare Google.
 
 ## Fisco (da verificare col tuo commercialista)
+Se diventa un'attività continuativa (canoni mensili), non è più occasionale: serve la partita IVA, di solito regime forfettario. Da valutare quando ci sono i primi 3 clienti, non prima.
+
 Senza partita IVA si può lavorare come prestazione occasionale con ricevuta. Se il cliente è un'azienda, di solito trattiene il 20% di ritenuta d'acconto e lo versa lui. Per pochi lavori in una settimana è la strada più semplice.

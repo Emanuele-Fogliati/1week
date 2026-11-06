@@ -27,6 +27,8 @@ Cosa ho scartato e perché:
 - **Bounty open source (Algora ecc.)**: saturate da agenti AI, molti progetti ora vietano PR generate da AI, tempi di merge di settimane. In 7 giorni l'atteso è circa 0 €. Scartato.
 - **Prodotti digitali (Gumroad, template, ebook)**: costruirli è facile, venderli no. Senza pubblico, in una settimana fanno 0 vendite. Scartato finché non c'è un canale di distribuzione.
 - **Microtask / sondaggi pagati**: centesimi l'ora. Non vale il tempo di Manu.
+- **Amazon FBA**: serve comprare merce in anticipo (centinaia o migliaia di euro), più 39 €/mese di account Pro, e spedire al magazzino Amazon richiede più di una settimana. Con zero budget è impossibile. Scartato.
+- **Dropshipping**: il negozio costa poco, ma senza budget per la pubblicità non entra nessuno. Margini sottili, resi e responsabilità verso il cliente (regole UE) a carico tuo, e per farlo in modo continuativo serve la partita IVA. Scartato.
 - **Trading, crypto, scommesse**: con zero budget non c'è capitale da far rendere, e il rischio è perdere. Scartato.
 
 Cosa tengo, ordinato per probabilità di incassare entro il 13/11:
@@ -42,5 +44,7 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 ## Diario
 
 ### 06/11
+- Manu vuole qualcosa di **duraturo** entro il 13/11. A diventa: 149 € una tantum + canone 19 €/mese. Obiettivo: chiudere la settimana con almeno 1-3 canoni attivi.
+- Valutati e scartati Amazon FBA e dropshipping (vedi sotto).
 - Repo creato, piano scritto, materiale pronto per A, B, C.
 - In attesa da Manu: risposte alle domande e apertura account (vedi messaggio nel thread).
