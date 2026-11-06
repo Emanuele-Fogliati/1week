@@ -43,7 +43,15 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
 
-### 06/11
+### 06/11 (sera, pivot)
+- Nuovi vincoli di Manu: vive a **Monaco di Baviera**, non parla tedesco, non conosce nessuno, **niente telefono né porta a porta**, tempo pieno, budget circa 200 €.
+- **A (siti per attività locali) abbandonato**: senza rete, senza tedesco e senza contatto diretto non si vende. Materiale lasciato come archivio.
+- Nuovo piano tutto online:
+  - **B potenziato, principale**: localizzazione in italiano per venditori Amazon/e-commerce e app, su Fiverr (+ Upwork). Cassa + asset duraturo (recensioni, clienti ricorrenti).
+  - **D nuovo**: "Italiani a Monaco", sito di guide pratiche in italiano + guida PDF a pagamento. Asset duraturo basato sull'esperienza vera di Manu.
+  - **C opzionale**: vendita usato online (Kleinanzeigen/Vinted), annunci scritti da Claude anche in tedesco.
+- Budget: si usano al massimo ~25 € (dominio + crediti Upwork). Il resto resta fermo finché un canale non dimostra di funzionare.
+
 - Manu vuole qualcosa di **duraturo** entro il 13/11. A diventa: 149 € una tantum + canone 19 €/mese. Obiettivo: chiudere la settimana con almeno 1-3 canoni attivi.
 - Valutati e scartati Amazon FBA e dropshipping (vedi sotto).
 - Repo creato, piano scritto, materiale pronto per A, B, C.

@@ -1,5 +1,7 @@
 # Esperimento A: sito vetrina per attività locali
 
+> **Abbandonato il 6/11 sera**: Manu vive a Monaco, non parla tedesco e non vuole contatto diretto. Lasciato come archivio.
+
 ## Ipotesi
 Tante piccole attività (parrucchieri, idraulici, estetiste, bar, B&B, artigiani) hanno solo una pagina Facebook o niente.
 Un sito di una pagina, pronto in 48 ore, a prezzo basso, è una vendita facile *se* la propone una persona che conoscono o che entra in negozio.

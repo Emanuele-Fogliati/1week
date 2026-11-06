@@ -4,7 +4,29 @@
 Un account Fiverr nuovo, senza recensioni, in 7 giorni prende pochi ordini o nessuno. Lo apriamo comunque perché costa zero e lavora mentre facciamo A.
 Regole Fiverr sull'AI (help.fiverr.com, "Using AI on Fiverr"): l'uso dell'AI è permesso, ogni consegna deve essere personalizzata e avere input umano, e se il cliente chiede bisogna dichiarare l'uso dell'AI. Quindi: Claude scrive, **Manu rilegge sempre prima di consegnare**, e se il cliente chiede si risponde la verità.
 
-Nicchia scelta: **italiano**. In inglese la concorrenza è infinita, in italiano molto meno, e Manu è madrelingua e può controllare la qualità.
+Nicchia scelta: **italiano**. Manu vive in Germania: niente gig in tedesco, perché non può controllarne la qualità. In inglese la concorrenza è infinita, in italiano molto meno, e Manu è madrelingua e può controllare la qualità.
+
+## Gig 0 (principale dal 6/11 sera): Localizzazione schede Amazon in italiano
+
+Perché: le traduzioni generiche EN→IT su Fiverr sono affollate. Chi vende su Amazon.it invece ha decine di prodotti da localizzare, torna a comprare (cliente ricorrente) e paga per titoli e bullet point che vendono, non solo tradotti.
+
+**Titolo:** I will localize your Amazon listing into native Italian for Amazon.it
+
+**Descrizione:**
+> Selling on Amazon.it? A literal translation won't rank or convert. I localize your title, bullet points, description and backend keywords into natural Italian, the way Italian shoppers actually search.
+>
+> Native Italian speaker. Every listing includes Italian keyword research, Amazon.it character limits respected, and units, sizes and tone adapted for Italian customers.
+>
+> Bulk discounts for multiple ASINs.
+
+**Pacchetti:**
+| | Basic | Standard | Premium |
+|---|---|---|---|
+| Contenuto | 1 listing (titolo + 5 bullet) | 1 listing completo + keyword backend | 3 listing completi + keyword |
+| Prezzo | 15 $ | 30 $ | 75 $ |
+| Consegna | 1 giorno | 2 giorni | 3 giorni |
+
+**Tag:** amazon italy, amazon listing translation, italian localization, amazon it, native italian
 
 ## Gig 1: Traduzione inglese → italiano naturale
 
