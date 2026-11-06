@@ -1,4 +1,6 @@
-# Esperimento D: "Italiani a Monaco", guide pratiche in italiano
+# Esperimento D: "Monaco Facile", guide pratiche in italiano per italiani a Monaco
+
+Sito: D-italiani-monaco/sito/ (statico, pronto per GitHub Pages). Prima guida online: Anmeldung.
 
 ## Ipotesi
 A Monaco vivono decine di migliaia di italiani, e ne arrivano di nuovi ogni mese. Tutti sbattono contro la stessa burocrazia (Anmeldung, Steuer-ID, assicurazione sanitaria, Schufa, ricerca casa, Kita) senza parlare tedesco.

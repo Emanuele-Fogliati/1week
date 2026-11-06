@@ -44,6 +44,7 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 ## Diario
 
 ### 06/11 (sera, pivot)
+- Costruito il sito "Monaco Facile" con la prima guida (Anmeldung, controllata su stadt.muenchen.de). Non pubblicato: manca accesso GitHub.
 - Nuovi vincoli di Manu: vive a **Monaco di Baviera**, non parla tedesco, non conosce nessuno, **niente telefono né porta a porta**, tempo pieno, budget circa 200 €.
 - **A (siti per attività locali) abbandonato**: senza rete, senza tedesco e senza contatto diretto non si vende. Materiale lasciato come archivio.
 - Nuovo piano tutto online:
