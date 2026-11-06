@@ -1,0 +1,59 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Concept redesign · Tabaccheria della Porta</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f3ee;--ink:#1c1917;--muted:#78716c;--gold:#a07a3c;--line:#e7e0d6;--card:#fff;--dark:#1c1917}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,sans-serif;background:var(--bg);color:var(--ink);font-size:15px}
+.concept{background:#a07a3c;color:#fff;text-align:center;font-size:12px;padding:6px 12px;letter-spacing:.3px}
+.trust{background:var(--dark);color:#e7e0d6;font-size:12.5px;display:flex;justify-content:center;gap:28px;padding:9px 16px;flex-wrap:wrap}
+header{background:var(--card);border-bottom:1px solid var(--line)}
+.hw{max-width:1200px;margin:0 auto;padding:16px 20px;display:flex;align-items:center;gap:24px}
+.logo{font-family:"Cormorant Garamond",serif;font-size:28px;font-weight:600;line-height:1;white-space:nowrap}.logo small{display:block;font-family:Inter;font-size:10.5px;letter-spacing:2.5px;color:var(--gold);text-transform:uppercase;margin-top:4px}
+.search{flex:1;display:flex;border:1px solid var(--line);border-radius:999px;padding:10px 18px;color:var(--muted);background:var(--bg)}
+.icons{display:flex;gap:18px;font-size:13px;color:var(--muted);white-space:nowrap}
+nav{max-width:1200px;margin:0 auto;padding:0 20px 12px;display:flex;gap:26px;font-size:13px;letter-spacing:1.2px;text-transform:uppercase}nav a{color:var(--ink);text-decoration:none}nav a.hl{color:var(--gold)}
+.hero{max-width:1200px;margin:24px auto;padding:0 20px;display:grid;grid-template-columns:1.2fr 1fr;gap:20px}
+.h1{background:linear-gradient(135deg,#1c1917,#3b2f22);color:#f7f3ee;border-radius:20px;padding:56px 48px;display:flex;flex-direction:column;justify-content:center}
+.h1 p.k{color:#d6b77f;letter-spacing:2.5px;font-size:12px;text-transform:uppercase;margin-bottom:16px}
+.h1 h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:52px;line-height:1.02;margin-bottom:18px}
+.h1 .sub{color:#cfc6b8;font-size:16px;max-width:36ch;margin-bottom:28px;line-height:1.55}
+.cta{display:flex;gap:12px;flex-wrap:wrap}.cta a{padding:13px 22px;border-radius:999px;font-weight:600;font-size:14px;text-decoration:none}.cta .a1{background:#d6b77f;color:#1c1917}.cta .a2{border:1px solid #6b5a43;color:#f7f3ee}
+.h2{display:grid;grid-template-rows:1fr 1fr;gap:20px}
+.tile{border-radius:20px;padding:28px;display:flex;flex-direction:column;justify-content:flex-end;min-height:170px;background:#ebe3d7}.tile.b{background:#e4d5bf}
+.tile h2{font-family:"Cormorant Garamond",serif;font-size:30px;font-weight:600}.tile p{color:var(--muted);font-size:14px;margin-top:4px}
+.cats{max-width:1200px;margin:8px auto 0;padding:0 20px;display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.cats a{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center;text-decoration:none;color:var(--ink);font-weight:500}
+.sec{max-width:1200px;margin:44px auto 0;padding:0 20px}.sec .t{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:18px}
+.sec h2{font-family:"Cormorant Garamond",serif;font-size:34px;font-weight:600}.sec .t a{color:var(--gold);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.p{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;flex-direction:column}
+.p .img{position:relative;aspect-ratio:1;display:flex;align-items:center;justify-content:center;background:#fff;border-radius:10px;overflow:hidden}.p img{max-width:85%;max-height:85%;object-fit:contain}
+.off{position:absolute;top:8px;left:8px;background:var(--dark);color:#fff;font-size:12px;font-weight:600;padding:4px 9px;border-radius:999px}
+.brand{font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:var(--gold);margin-top:12px}
+.p h3{font-family:"Cormorant Garamond",serif;font-size:21px;font-weight:600;margin-top:2px}.spec{color:var(--muted);font-size:12.5px;margin-top:2px}
+.price{margin:10px 0 12px;font-size:15px}.price s{color:var(--muted);font-size:13px}.price b{font-size:18px}
+.p button{margin-top:auto;font:inherit;font-weight:600;font-size:13px;border:1px solid var(--ink);background:transparent;border-radius:999px;padding:9px}
+.why{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}.why div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}.why h3{font-size:15px;margin-bottom:6px}.why p{color:var(--muted);font-size:14px;line-height:1.55}
+.rev{display:grid;grid-template-columns:1fr 1fr;gap:16px}.rev blockquote{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;font-family:"Cormorant Garamond",serif;font-size:20px;line-height:1.35}.rev cite{display:block;font-family:Inter;font-style:normal;font-size:13px;color:var(--muted);margin-top:10px}
+footer{margin-top:56px;background:var(--dark);color:#a8a29e;font-size:13px;padding:28px 20px;text-align:center}
+@media(max-width:760px){.trust{gap:10px;font-size:11.5px}.trust span:nth-child(n+2){display:none}.trust{padding:7px}.hw{flex-wrap:wrap;gap:12px;padding:12px 16px}.logo{font-size:21px}.logo small{font-size:9px;letter-spacing:1.8px}.icons{font-size:12px;gap:10px}.icons{margin-left:auto}.search{order:3;flex-basis:100%;padding:9px 14px}
+nav{overflow-x:auto;gap:18px;padding:0 16px 10px;white-space:nowrap}.hero{grid-template-columns:1fr;margin-top:14px;padding:0 16px}.h1{padding:22px 20px}.h1 p.k{display:none}.h1 h1{font-size:29px;margin-bottom:10px}.h1 .sub{font-size:14px;margin-bottom:14px}.cta .a2{display:none}.cta a{padding:10px 18px}.h2{display:none}
+.cats{grid-template-columns:repeat(5,auto);overflow-x:auto;padding:0 16px}.cats a{padding:10px 14px;white-space:nowrap}.sec{padding:0 16px;margin-top:32px}.sec h2{font-size:27px}.grid{grid-template-columns:1fr 1fr;gap:10px}.p{padding:10px}.p h3{font-size:18px}.why,.rev{grid-template-columns:1fr}}
+</style></head><body>
+<div class="concept">Concept di redesign non ufficiale, preparato come proposta per Tabaccheria della Porta</div>
+<div class="trust"><span>Oltre 20.000 clienti soddisfatti</span><span>Spedizione gratuita con 3 prodotti</span><span>Profumi originali dal 1983</span><span>Pacchetto regalo in omaggio</span></div>
+<header><div class="hw"><div class="logo">Tabaccheria della Porta<small>Profumeria · San Marino · dal 1983</small></div><div class="search">Cerca un profumo o un marchio…</div><div class="icons"><span>Account</span><span>Carrello (0)</span></div></div>
+<nav><a>Donna</a><a>Uomo</a><a>Unisex</a><a class="hl">Tester</a><a>Novità</a><a>Marchi</a><a>Promozioni</a><a>Recensioni</a></nav></header>
+<section class="hero"><div class="h1"><p class="k">Profumeria a San Marino dal 1983</p><h1>Le grandi maison, fino al 60% in meno.</h1><p class="sub">Profumi originali e tester delle migliori marche, stessa fragranza e stessa qualità della confezione da negozio.</p><div class="cta"><a class="a1">Scopri i più venduti</a><a class="a2">Cos'è un tester?</a></div></div>
+<div class="h2"><div class="tile"><h2>Tester da 34,90 €</h2><p>Stessa fragranza, confezione semplice</p></div><div class="tile b"><h2>Idee regalo</h2><p>Pacchetto regalo in omaggio su richiesta</p></div></div></section>
+<div class="cats"><a>Per lei</a><a>Per lui</a><a>Sotto i 50 €</a><a>Tester</a><a>Cofanetti</a></div>
+<section class="sec"><div class="t"><h2>I più venduti</h2><a>Vedi tutti →</a></div><div class="grid"><article class="p"><div class="img"><span class="off">-51%</span><img src="https://www.tabaccheriadellaportaonline.sm/images/1%20million.jpg" alt="1 Million Paco Rabanne" loading="lazy"></div><p class="brand">Paco Rabanne</p><h3>1 Million</h3><p class="spec">EDT · Tester · 100 ml</p><p class="price"><s>126 €</s> <b>62.00 €</b></p><button>Aggiungi</button></article><article class="p"><div class="img"><span class="off">-41%</span><img src="https://www.tabaccheriadellaportaonline.sm/images/DECLARATION%20DI%20CARTIER%20CON%20SCATOLA.jpg" alt="Déclaration Cartier" loading="lazy"></div><p class="brand">Cartier</p><h3>Déclaration</h3><p class="spec">EDT · Tester · 100 ml</p><p class="price"><s>134 €</s> <b>79.00 €</b></p><button>Aggiungi</button></article><article class="p"><div class="img"><span class="off">-57%</span><img src="https://www.tabaccheriadellaportaonline.sm/images/BOSS%20GRIGIO.jpg" alt="Boss Bottled Hugo Boss" loading="lazy"></div><p class="brand">Hugo Boss</p><h3>Boss Bottled</h3><p class="spec">EDT · Tester · 100 ml</p><p class="price"><s>122 €</s> <b>52.00 €</b></p><button>Aggiungi</button></article><article class="p"><div class="img"><span class="off">-49%</span><img src="https://www.tabaccheriadellaportaonline.sm/images/Le%20Male%20by%20Jean%20Paul%20Gaultier%202.jpg" alt="Le Male Jean Paul Gaultier" loading="lazy"></div><p class="brand">Jean Paul Gaultier</p><h3>Le Male</h3><p class="spec">EDT · Tester · 125 ml</p><p class="price"><s>134 €</s> <b>69.00 €</b></p><button>Aggiungi</button></article><article class="p"><div class="img"><span class="off">-54%</span><img src="https://www.tabaccheriadellaportaonline.sm/images/LIGHT%20BLU.jpg" alt="Light Blue Donna Dolce&Gabbana" loading="lazy"></div><p class="brand">Dolce&Gabbana</p><h3>Light Blue Donna</h3><p class="spec">EDT · Tester · 100 ml</p><p class="price"><s>129 €</s> <b>59.00 €</b></p><button>Aggiungi</button></article><article class="p"><div class="img"><span class="off">-52%</span><img src="https://www.tabaccheriadellaportaonline.sm/images/ACQUA%20DI%20GIO%20%20U.jpg" alt="Acqua di Giò Giorgio Armani" loading="lazy"></div><p class="brand">Giorgio Armani</p><h3>Acqua di Giò</h3><p class="spec">EDT · Tester · 100 ml</p><p class="price"><s>122 €</s> <b>59.00 €</b></p><button>Aggiungi</button></article><article class="p"><div class="img"><span class="off">-29%</span><img src="https://www.tabaccheriadellaportaonline.sm/images/HYPNOTIC%202.jpg" alt="Hypnotic Poison Dior" loading="lazy"></div><p class="brand">Dior</p><h3>Hypnotic Poison</h3><p class="spec">EDT · Confezione · 100 ml</p><p class="price"><s>152 €</s> <b>108.00 €</b></p><button>Aggiungi</button></article><article class="p"><div class="img"><span class="off">-55%</span><img src="https://www.tabaccheriadellaportaonline.sm/images/TERRE.jpg" alt="Terre d'Hermès Hermès" loading="lazy"></div><p class="brand">Hermès</p><h3>Terre d'Hermès</h3><p class="spec">EDT · No box · 100 ml</p><p class="price"><s>130 €</s> <b>59.00 €</b></p><button>Aggiungi</button></article></div></section>
+<section class="sec"><div class="t"><h2>Perché i prezzi sono così bassi</h2></div><div class="why">
+<div><h3>Tester originali</h3><p>Prodotti dalle stesse case profumiere per le profumerie. Stessa fragranza e concentrazione, confezione semplice.</p></div>
+<div><h3>40 anni a San Marino</h3><p>Un negozio vero in Via Lo Stradone 2, dove puoi anche ritirare di persona.</p></div>
+<div><h3>Spedizione tracciata</h3><p>Corriere BRT o punto di ritiro Fermopoint vicino a te. Gratis con 3 prodotti.</p></div></div></section>
+<section class="sec"><div class="t"><h2>Dicono di noi</h2><a>Tutte le recensioni →</a></div><div class="rev">
+<blockquote>“Spedizione e imballo tutto ok! Complimenti e arrivederci per un prossimo ordine.”<cite>Donato R. · recensione dal sito</cite></blockquote>
+<blockquote>“Ho ricomprato un profumo che è davvero introvabile e quindi ho approfittato. Sono molto gentili.”<cite>Lucrezia D. · recensione dal sito</cite></blockquote></div></section>
+<footer>Tabaccheria della Porta Srl · Via Lo Stradone 2, 47890 San Marino · Concept grafico non ufficiale</footer>
+</body></html>
