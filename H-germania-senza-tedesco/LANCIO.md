@@ -5,6 +5,7 @@
 - `sito/index.html`: landing con la descrizione del kit e il pulsante di acquisto (al posto di `GUMROAD_URL` va il link vero).
 - `sito/disdetta/`: generatore gratuito di disdette (la calamita del traffico).
 - `sito/guide/anmeldung-monaco.html`: prima guida.
+- `sito/lettere/`: 10 lettere gratuite, una pagina ciascuna, scelte tra le ricerche più comuni (affitto, cauzione, palestra, dimissioni, Steuer-ID...). Portano traffico da Google verso il kit, che ne ha 31 più checklist e glossario.
 
 ## Impegno per Manu: circa 1 ora in tutto. Ritorno: 0-100 € in settimana, poi cresce con Google
 1. **Rileggi il PDF (30 min).** Sei tu che lo vendi: se trovi una frase che non ti convince, me la segnali e la sistemo. Le lettere in tedesco le ho controllate sulle leggi citate.
