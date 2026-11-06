@@ -1,10 +1,10 @@
 # 1week
 
-Esperimento: una settimana (6-13 nov 2026) per fare più soldi possibile partendo da zero, con Claude che pianifica e produce e Manu che apre gli account e incassa.
+Esperimento: una settimana (6-13 nov 2026) per fare più soldi possibile partendo da zero. Claude pianifica e costruisce, Manu apre gli account e incassa.
 
-- [LOG.md](LOG.md): piano, contatore giornaliero, risultati
-- [A-siti-locali](A-siti-locali/): siti vetrina per attività locali (offerta, script, demo)
-- [B-fiverr](B-fiverr/): gig di traduzione e copywriting in italiano
-- [C-usato](C-usato/): vendita di oggetti inutilizzati
-- [D-italiani-monaco](D-italiani-monaco/): sito "Monaco Facile" (in pausa)
-- [E-pm-ai](E-pm-ai/): servizi di Product Management con AI (principale)
+- [LOG.md](LOG.md): diario, contatore giornaliero, cassa
+- [PORTAFOGLIO.md](PORTAFOGLIO.md): tutti i test ordinati per ritorno/impegno
+- [G-redesign-tabaccheria](G-redesign-tabaccheria/): proposta di redesign a un e-shop di profumi
+- [H-germania-senza-tedesco](H-germania-senza-tedesco/): kit di lettere in tedesco, sito, generatore IT/EN
+- [I-pm-ai-toolkit](I-pm-ai-toolkit/): template e prompt AI per Product Manager
+- Archivio: A-siti-locali, B-fiverr, C-usato, D-italiani-monaco, E-pm-ai, F-prodotti

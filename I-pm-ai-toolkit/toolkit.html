@@ -1,0 +1,131 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>PM AI Toolkit</title><style>
+body{font-family:"DejaVu Sans",Arial,sans-serif;color:#141821;font-size:10.5pt;line-height:1.5}
+.cover{height:255mm;display:flex;flex-direction:column;justify-content:center;page-break-after:always}
+.cover .k{color:#4338ca;letter-spacing:3px;text-transform:uppercase;font-size:10pt}.cover h1{font-size:44pt;line-height:1;margin:12px 0}
+.cover .sub{font-size:14pt;color:#5b6170;max-width:140mm}
+.k{color:#4338ca;letter-spacing:1.5px;text-transform:uppercase;font-size:8.5pt}
+.pg{page-break-after:always}
+.tpl{page-break-before:always}.tpl h2{font-size:20pt;margin:2px 0 4px}.why{color:#5b6170;margin:0 0 12px}
+.sheet{border:1px solid #e3e4ea;border-radius:8px;padding:14px 16px;background:#fafafc}
+.sheet h3{font-size:14pt;margin:6px 0}.sheet h4{font-size:11.5pt;margin:12px 0 4px;color:#312e81}.sheet h5{font-size:10.5pt;margin:10px 0 4px}
+.sheet p{margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:9pt;margin:6px 0}th,td{border:1px solid #d9dbe3;padding:5px;text-align:left;vertical-align:top}th{background:#eef0fb}
+h2.pcat{page-break-before:always;font-size:20pt;color:#312e81;border-bottom:2px solid #4338ca;padding-bottom:6px}
+.prompt{page-break-inside:avoid;margin:0 0 12px;border:1px solid #e3e4ea;border-radius:8px;padding:10px 12px}.prompt h3{margin:2px 0 6px;font-size:12pt}
+pre{white-space:pre-wrap;font-family:"DejaVu Sans Mono",monospace;font-size:8.8pt;background:#f3f4f8;border-radius:6px;padding:8px;margin:0}
+</style></head><body>
+<div class="cover"><div class="k">For product managers and product owners</div><h1>PM AI Toolkit</h1>
+<div class="sub">9 battle-tested templates and 20 AI prompts to go from raw customer notes to a sprint-ready backlog in hours, not weeks.</div></div>
+<div class="pg"><h2>How to use this toolkit</h2>
+<p>The templates give structure; the prompts do the first draft. Your job is judgment: check every assumption, cut what doesn't matter, and decide.</p>
+<p><b>Rules that make AI output good:</b></p><ul>
+<li>Always paste real context: notes, data, quotes. No context, generic output.</li>
+<li>Ask the model to mark assumptions as [ASSUMPTION] and never to invent data.</li>
+<li>Iterate: "make it shorter", "what's missing", "argue against this".</li>
+<li>Never paste confidential company or customer data into tools your company hasn't approved.</li></ul>
+<h3>Contents</h3><ul><li>Template 1: One-page product brief</li><li>Template 2: Product Requirements Document (PRD)</li><li>Template 3: User story with acceptance criteria</li><li>Template 4: Customer interview script</li><li>Template 5: Interview synthesis grid</li><li>Template 6: Worked example: a complete PRD</li><li>Template 7: Experiment canvas</li><li>Template 8: Release notes</li><li>Template 9: Sprint retrospective</li><li>Prompts: Discovery and research (5)</li><li>Prompts: Strategy and prioritisation (5)</li><li>Prompts: Specs and delivery (5)</li><li>Prompts: Communication (5)</li></ul></div>
+<section class="tpl"><div class="k">Template 1</div><h2>One-page product brief</h2><p class="why">Use it before anyone writes a PRD: it forces the team to agree on the problem first.</p><div class="sheet"><h3>[Product / feature name] — One-pager</h3>
+<p><b>Owner:</b> [name] · <b>Date:</b> [date] · <b>Status:</b> Draft / In review / Approved</p>
+<h4>Problem</h4>
+<p>Who has the problem, how often, and what it costs them today. One paragraph, no solution yet.</p>
+<h4>Evidence</h4>
+<ul><li>[Data point, e.g. &quot;38% of tickets in Q3 mention X&quot;]</li><li>[Customer quote, with source]</li><li>[What we don&#x27;t know yet]</li></ul>
+<h4>Goal and success metric</h4>
+<p>We will know this worked when [metric] moves from [baseline] to [target] by [date].</p>
+<p>Guardrail: [metric that must not get worse].</p>
+<h4>Proposed direction (not a spec)</h4>
+<p>[2-4 sentences]</p>
+<h4>Not doing</h4>
+<ul><li>[Explicitly out of scope]</li></ul>
+<h4>Biggest risk</h4>
+<p>[Value / usability / feasibility / viability] — and the cheapest way to test it: [test].</p></div></section><section class="tpl"><div class="k">Template 2</div><h2>Product Requirements Document (PRD)</h2><p class="why">The full spec engineers and designers build from. A worked example follows at the end of the templates.</p><div class="sheet"><h3>PRD: [Feature name]</h3>
+<p><b>Author:</b> · <b>Reviewers:</b> · <b>Last updated:</b> · <b>Status:</b></p>
+<h4>1. Problem and context</h4>
+<p>What is broken today, for whom, and how we know (data, quotes). Link the one-pager.</p>
+<h4>2. Goals and success metrics</h4>
+<table><tr><th>Goal</th><th>Metric</th><th>Baseline</th><th>Target</th><th>Deadline</th></tr><tr><td>[Outcome]</td><td>[How measured]</td><td>[Today]</td><td>[Target]</td><td>[Date]</td></tr></table>
+<p>Guardrail metrics: what must not get worse.</p>
+<h4>3. Users and use cases</h4>
+<p>Primary user, secondary users, top 3 use cases in one line each.</p>
+<h4>4. Scope</h4>
+<p><b>In scope (v1):</b> the smallest version that can move the metric.</p>
+<p><b>Out of scope:</b> said explicitly, to stop scope creep.</p>
+<p><b>Later (v2+):</b> good ideas parked on purpose.</p>
+<h4>5. Requirements</h4>
+<table><tr><th>ID</th><th>Requirement</th><th>Priority (Must/Should/Could)</th><th>Notes</th></tr><tr><td>R1</td><td>[What the system must do, testable]</td><td>Must</td><td></td></tr></table>
+<h4>6. User stories and acceptance criteria</h4>
+<p>Link the tickets, or list the key stories with Given/When/Then.</p>
+<h4>7. UX notes and open design questions</h4>
+<h4>8. Analytics and events to track</h4>
+<p>Which product question each event answers.</p>
+<h4>9. Risks, dependencies and mitigations</h4>
+<table><tr><th>Risk</th><th>Likelihood</th><th>Impact</th><th>Mitigation</th></tr></table>
+<h4>10. Rollout plan</h4>
+<p>Pilot group, % rollout, success threshold to go to 100%, kill switch.</p>
+<h4>11. Open questions</h4>
+<table><tr><th>Question</th><th>Owner</th><th>Due</th></tr></table></div></section><section class="tpl"><div class="k">Template 3</div><h2>User story with acceptance criteria</h2><p class="why">One story per ticket. If you can&#x27;t write the acceptance criteria, the story isn&#x27;t ready.</p><div class="sheet"><p><b>Title:</b> [Short, user-facing]</p>
+<p><b>As a</b> [type of user]</p>
+<p><b>I want</b> [capability]</p>
+<p><b>so that</b> [outcome / value].</p>
+<p><b>Acceptance criteria</b></p>
+<ul><li><i>Given</i> [context], <i>when</i> [action], <i>then</i> [observable result].</li><li><i>Given</i> [edge case], <i>when</i> [action], <i>then</i> [result].</li><li><i>Given</i> [error case], <i>when</i> [action], <i>then</i> [result and message shown].</li></ul>
+<p><b>Out of scope for this story:</b> [ ]</p>
+<p><b>Design:</b> [link] · <b>Analytics event:</b> [event_name] · <b>Dependencies:</b> [ ]</p>
+<p><b>Definition of Ready check:</b> value clear ☐ · AC testable ☐ · design attached ☐ · estimated ☐ · fits in a sprint ☐</p></div></section><section class="tpl"><div class="k">Template 4</div><h2>Customer interview script</h2><p class="why">45 minutes, problem-focused. Never pitch your idea during discovery.</p><div class="sheet"><p><b>Intro (3 min)</b> Thanks, purpose, no right answers, permission to record.</p>
+<p><b>Context (7 min)</b></p>
+<ul><li>Tell me about your role and a typical week.</li><li>Where does [problem area] fit in your work?</li></ul>
+<p><b>Story of the last time (20 min)</b></p>
+<ul><li>Tell me about the last time you [did the task / hit the problem]. Walk me through it step by step.</li><li>What did you try first? What happened?</li><li>What was the hardest part? Why?</li><li>What did it cost you (time, money, stress)?</li><li>What do you use today to deal with it? What do you like and dislike about it?</li></ul>
+<p><b>Wrap-up (10 min)</b></p>
+<ul><li>If you could wave a magic wand, what would change?</li><li>Is there anyone else I should talk to?</li></ul>
+<p><b>Rules:</b> ask about the past, not the future · ask &quot;why&quot; and &quot;tell me more&quot; · no leading questions · write down exact words.</p></div></section><section class="tpl"><div class="k">Template 5</div><h2>Interview synthesis grid</h2><p class="why">Fill it within 24 hours of each interview, then look for patterns across 5+ interviews.</p><div class="sheet"><table><tr><th>Interview</th><th>Segment</th><th>Job to be done</th><th>Pains (exact quotes)</th><th>Current workaround</th><th>Willingness to pay signal</th><th>Surprises</th></tr><tr><td>#1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<p><b>Patterns after [N] interviews</b></p>
+<ul><li>Pain mentioned by ≥ 60% of people:</li><li>Segment where pain is strongest:</li><li>Hypotheses invalidated:</li><li>Next questions:</li></ul></div></section><section class="tpl"><div class="k">Template 6</div><h2>Worked example: a complete PRD</h2><p class="why">A full PRD for a realistic feature, to show the level of detail that works.</p><div class="sheet"><h3>Sample PRD: Smart appointment reminders</h3>
+<ul><li>Worked example. The product <b>CareSlot</b> is fictional; all numbers are illustrative assumptions, labeled as such.</li></ul>
+<p><b>Author:</b> Product team · <b>Status:</b> Draft for review · <b>Last updated:</b> 2026-11-06</p>
+<h4>1. Problem</h4>
+<p>CareSlot is a booking app for small physiotherapy and dental clinics (1-10 practitioners). Clinics tell us no-shows are their biggest avoidable loss: an empty 45-minute slot cannot be resold at short notice.</p>
+<p>Today CareSlot sends one fixed email 24h before the appointment. Patients often miss it, and there is no easy way to cancel or reschedule from the reminder, so they simply don&#x27;t show up.</p>
+<p><b>Assumption to validate:</b> no-show rate in our clinics is ~8-12% of appointments (industry figures vary; we will measure our own baseline first, see §8).</p>
+<h4>2. Goals and success metrics</h4>
+<table><tr><th>Goal</th><th>Metric</th><th>Target (90 days after launch)</th></tr><tr><td>Fewer no-shows</td><td>No-show rate per clinic</td><td>-30% vs. baseline</td></tr><tr><td>Freed slots get reused</td><td>% of cancelled slots rebooked before start</td><td>≥ 25%</td></tr><tr><td>Clinics see the value</td><td>Clinics that keep reminders enabled after 30 days</td><td>≥ 85%</td></tr></table>
+<p><b>Guardrail:</b> patient opt-out from reminders stays under 5%.</p>
+<h4>3. Users</h4>
+<ul><li><b>Clinic owner / receptionist:</b> wants a full calendar and zero manual phone calls.</li><li><b>Patient:</b> wants a reminder at the right time, on the right channel, and a one-tap way to say &quot;I can&#x27;t make it&quot;.</li></ul>
+<h4>4. Scope</h4>
+<p><b>In scope (v1)</b></p>
+<ul><li>Reminders via SMS and email, at times set by the clinic (default: 48h and 3h before).</li><li>One-tap <b>Confirm / Cancel / Reschedule</b> links in every reminder, no login needed.</li><li>When a patient cancels, the slot is reopened and offered to the clinic&#x27;s waitlist.</li><li>Dashboard tile for the clinic: confirmed, cancelled, no-show this week.</li></ul>
+<p><b>Out of scope (v1)</b></p>
+<ul><li>WhatsApp channel (pending provider evaluation and cost).</li><li>Automatic no-show fees or deposits.</li><li>AI-predicted no-show risk (candidate for v2 once we have data).</li></ul>
+<h4>5. Requirements</h4>
+<table><tr><th>ID</th><th>Requirement</th><th>Priority</th></tr><tr><td>R1</td><td>Clinic can enable/disable reminders and choose up to 2 send times</td><td>Must</td></tr><tr><td>R2</td><td>Reminder contains date, time, practitioner, address, and Confirm/Cancel/Reschedule links</td><td>Must</td></tr><tr><td>R3</td><td>Links work without login, are unique per appointment and expire at appointment start</td><td>Must</td></tr><tr><td>R4</td><td>Cancelling frees the slot within 1 minute and notifies the clinic</td><td>Must</td></tr><tr><td>R5</td><td>Freed slot is offered to waitlisted patients, first to accept gets it</td><td>Should</td></tr><tr><td>R6</td><td>Patient can opt out of SMS reminders; email remains as fallback</td><td>Must</td></tr><tr><td>R7</td><td>Reminders respect quiet hours (no SMS 21:00-08:00 local time)</td><td>Should</td></tr></table>
+<h4>6. Example user stories</h4>
+<p><b>US-1</b> As a patient, I want to cancel from the reminder in one tap, so that I don&#x27;t have to call the clinic.</p>
+<ul><li><i>Given</i> I received a reminder for an upcoming appointment, <i>when</i> I tap &quot;Cancel&quot; and confirm, <i>then</i> the appointment is cancelled, I see a confirmation screen, and the clinic is notified.</li><li><i>Given</i> the appointment has already started, <i>when</i> I open the link, <i>then</i> I see &quot;This appointment can no longer be changed online&quot; and the clinic&#x27;s phone number.</li></ul>
+<p><b>US-2</b> As a receptionist, I want freed slots offered to the waitlist automatically, so that I don&#x27;t have to phone patients one by one.</p>
+<h4>7. Risks and mitigations</h4>
+<table><tr><th>Risk</th><th>Mitigation</th></tr><tr><td>SMS cost erodes margin for small clinics</td><td>SMS on paid plan only; email free; show cost estimate in settings</td></tr><tr><td>Reminder links forwarded to others</td><td>Links only allow cancel/reschedule of that appointment, no personal data beyond what&#x27;s in the message</td></tr><tr><td>GDPR: health-related data in SMS</td><td>No treatment type in reminder text, only &quot;appointment at [clinic]&quot;</td></tr></table>
+<h4>8. Rollout and measurement</h4>
+<p>1. Two weeks measuring baseline no-show rate across pilot clinics (no feature change).</p>
+<p>2. Pilot with 10 clinics, 4 weeks, compare to baseline.</p>
+<p>3. General release if no-show reduction ≥ 15% and opt-out &lt; 5%.</p>
+<h4>9. Open questions</h4>
+<ul><li>Do clinics want to customise the reminder text, or does that create support load?</li><li>Should rescheduling show all free slots or only those of the same practitioner?</li></ul></div></section><section class="tpl"><div class="k">Template 7</div><h2>Experiment canvas</h2><p class="why">Turn every assumption into a cheap test with a decision rule decided upfront.</p><div class="sheet"><p><b>We believe that</b> [assumption]</p>
+<p><b>To verify, we will</b> [experiment: landing page, fake door, concierge, prototype test...]</p>
+<p><b>And measure</b> [metric]</p>
+<p><b>We are right if</b> [threshold, decided BEFORE running]</p>
+<p><b>Cost / time:</b> [ ] · <b>Owner:</b> [ ] · <b>Decision date:</b> [ ]</p>
+<p><b>Result:</b> [ ] · <b>Decision:</b> persevere / pivot / kill · <b>What we learned:</b> [ ]</p></div></section><section class="tpl"><div class="k">Template 8</div><h2>Release notes</h2><p class="why">Write for users, not for the team. Lead with the benefit.</p><div class="sheet"><h4>[Month Year] — What&#x27;s new</h4>
+<h5>[Benefit-led headline, e.g. &quot;Cancel appointments in one tap&quot;]</h5>
+<p>[1-2 sentences: what changed and why it helps you.] [Link / GIF]</p>
+<h5>Improvements</h5>
+<ul><li>[Thing] is now [faster/easier] — [one-line why it matters]</li></ul>
+<h5>Fixes</h5>
+<ul><li>Fixed an issue where [symptom users noticed].</li></ul>
+<p>Questions or feedback? [contact]</p></div></section><section class="tpl"><div class="k">Template 9</div><h2>Sprint retrospective</h2><p class="why">45 minutes. End with max 2 actions, each with an owner.</p><div class="sheet"><p><b>Check-in (5 min):</b> one word for this sprint.</p>
+<p><b>What went well (10 min):</b></p>
+<p><b>What was hard (10 min):</b></p>
+<p><b>What we learned (5 min):</b></p>
+<p><b>Actions (15 min):</b> max 2, each with owner and due date.</p>
+<table><tr><th>Action</th><th>Owner</th><th>Due</th><th>Done?</th></tr></table>
+<p><b>Last retro&#x27;s actions — did we do them?</b></p></div></section><h2 class='pcat'>Discovery and research</h2><div class='prompt'><div class='k'>Prompt 1</div><h3>Turn raw notes into an interview summary</h3><pre>You are a senior product researcher. Here are my raw notes from a customer interview: [paste]. Summarise in: (1) context of the person, (2) the job they are trying to get done, (3) pains with exact quotes, (4) current workarounds, (5) surprises. Do not invent anything that is not in the notes; mark anything uncertain.</pre></div><div class='prompt'><div class='k'>Prompt 2</div><h3>Find patterns across interviews</h3><pre>Here are summaries of [N] customer interviews: [paste]. Group the pains into themes. For each theme give: how many interviews mention it, the strongest quote, and which customer segment it affects most. End with the 3 riskiest assumptions these interviews do NOT yet answer.</pre></div><div class='prompt'><div class='k'>Prompt 3</div><h3>Write a non-leading interview script</h3><pre>I want to understand how [user type] deal with [problem area]. Write a 45-minute interview script focused on past behaviour, not opinions about the future. Flag any question that could be leading and rewrite it.</pre></div><div class='prompt'><div class='k'>Prompt 4</div><h3>Competitor teardown</h3><pre>Act as a product strategist. For [competitor 1], [competitor 2], [competitor 3] in the [market] market, compare: target customer, core promise, pricing model, onboarding, key features, and the obvious gaps. Use only what I paste below from their websites: [paste]. Then list 3 positioning opportunities for us.</pre></div><div class='prompt'><div class='k'>Prompt 5</div><h3>Jobs-to-be-done statements</h3><pre>Based on this research [paste], write 5 jobs-to-be-done statements in the format &#x27;When [situation], I want to [motivation], so I can [expected outcome]&#x27;. Rank them by how often they appear in the evidence.</pre></div><h2 class='pcat'>Strategy and prioritisation</h2><div class='prompt'><div class='k'>Prompt 6</div><h3>Opportunity solution tree</h3><pre>Our desired outcome is [metric and target]. From these customer insights [paste], build an opportunity solution tree: outcome → 3-5 opportunities (customer needs) → 2-3 solution ideas each → one cheap experiment per idea.</pre></div><div class='prompt'><div class='k'>Prompt 7</div><h3>RICE scoring with reasoning</h3><pre>Score these initiatives with RICE (Reach, Impact, Confidence, Effort): [list with any data I have]. Show your assumptions for each number, flag where confidence is low, and tell me which 2 scores would change the ranking if they were wrong.</pre></div><div class='prompt'><div class='k'>Prompt 8</div><h3>Pre-mortem</h3><pre>Imagine it is 6 months after launching [feature] and it failed. Write the 8 most likely reasons why, grouped into value, usability, feasibility and business viability risks. For each, suggest an early warning signal and a mitigation.</pre></div><div class='prompt'><div class='k'>Prompt 9</div><h3>Define a North Star metric</h3><pre>Our product is [description] for [users]. Propose 3 candidate North Star metrics. For each: why it reflects customer value, how it could be gamed, and 3 input metrics teams can influence directly.</pre></div><div class='prompt'><div class='k'>Prompt 10</div><h3>Say no to a stakeholder</h3><pre>A stakeholder asked for [request] because [reason]. It doesn&#x27;t fit our current goal [goal]. Draft a short, respectful message that acknowledges the need, explains the trade-off with data, and offers an alternative or a date to revisit.</pre></div><h2 class='pcat'>Specs and delivery</h2><div class='prompt'><div class='k'>Prompt 11</div><h3>PRD first draft from a brief</h3><pre>You are an experienced product manager. Write a PRD for [feature] using this structure: problem, goals and metrics (table), users, in/out of scope, requirements table with MoSCoW priority, risks, rollout, open questions. Context: [paste]. Mark every assumption as [ASSUMPTION] so I can verify it.</pre></div><div class='prompt'><div class='k'>Prompt 12</div><h3>Break an epic into user stories</h3><pre>Break this epic into vertical user stories that each deliver user value and fit in one sprint: [epic]. Use &#x27;As a / I want / so that&#x27;. Add Given/When/Then acceptance criteria including at least one edge case and one error case per story.</pre></div><div class='prompt'><div class='k'>Prompt 13</div><h3>Find gaps in a spec</h3><pre>Review this spec as a sceptical senior engineer and a QA lead: [paste]. List missing edge cases, unclear requirements, untestable acceptance criteria, and questions the team will ask in refinement. Be specific.</pre></div><div class='prompt'><div class='k'>Prompt 14</div><h3>Write analytics events</h3><pre>For this feature [description], propose the tracking plan: event names (snake_case), when they fire, properties with types, and which product question each event answers. Keep it under 10 events.</pre></div><div class='prompt'><div class='k'>Prompt 15</div><h3>Estimate risk, not just effort</h3><pre>For each of these stories [paste], identify the biggest unknown (technical, design, or dependency) and suggest a spike or prototype that would reduce it in under 2 days.</pre></div><h2 class='pcat'>Communication</h2><div class='prompt'><div class='k'>Prompt 16</div><h3>Stakeholder update</h3><pre>Turn these notes [paste] into a 150-word weekly update for leadership: headline status (on track / at risk / off track), what shipped, metric movement, top risk and what we need from them. No jargon.</pre></div><div class='prompt'><div class='k'>Prompt 17</div><h3>Release notes for users</h3><pre>Rewrite these internal changelog items [paste] as user-facing release notes. Lead each with the benefit, max 2 sentences each, friendly but not cheesy.</pre></div><div class='prompt'><div class='k'>Prompt 18</div><h3>Explain a trade-off</h3><pre>Explain to a non-technical audience why we chose [option A] over [option B] for [decision]. Include what we gain, what we give up, and when we would revisit. Max 200 words.</pre></div><div class='prompt'><div class='k'>Prompt 19</div><h3>Meeting to decisions</h3><pre>Here is a meeting transcript [paste]. Extract: decisions made, open questions with owner, action items with owner and due date. If a decision is ambiguous, list it under &#x27;needs confirmation&#x27;.</pre></div><div class='prompt'><div class='k'>Prompt 20</div><h3>Customer email for a sunset</h3><pre>Draft an email telling customers we are retiring [feature] on [date]. Explain why in one sentence, what they can use instead, how to export their data, and where to get help. Empathetic and clear.</pre></div></body></html>

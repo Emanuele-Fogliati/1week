@@ -43,6 +43,12 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
 
+### Notte 6-7/11 (autonomia piena)
+- Manu: "tenta anche 10 cose diverse, ho sempre la tua approvazione". Limiti che restano: legale, niente spam, niente azioni irreversibili a suo nome.
+- GitHub: account collegato, ma alla Claude GitHub App manca l'accesso in scrittura al repo (403). Serve installarla sul repo.
+- Costruiti e pronti: **G** redesign + email per Tabaccheria della Porta; **H** kit "Germania senza tedesco" (PDF 33 pagine, 31 lettere), landing, generatore IT ed EN, piano di lancio; **I** PM AI Toolkit (PDF 18 pagine).
+- Classifica per ritorno/impegno in PORTAFOGLIO.md.
+
 ### 06/11 (sera, idea di Manu)
 - Idea: vetrina "di lusso" che rivende i profumi di tabaccheriadellaportaonline.sm con un piccolo ricarico. Verdetto: no. Sono soprattutto tester (rivendita bloccabile dal marchio, CGUE L'Oréal c. eBay 2011), il rivenditore si prende resi, garanzia, LUCID e IVA senza mai vedere la merce, il sito sembra una truffa e non esiste un programma di affiliazione.
 - Versione legale proposta: vendere a loro un redesign del sito (mockup + una sola email mirata al titolare). Alternativa: sito di offerte con affiliazione (saturo).
