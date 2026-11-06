@@ -1,7 +1,7 @@
-# Esperimento B: gig su Fiverr (in background)
+# Esperimento B: gig su Fiverr (principale)
 
 ## Realtà
-Un account Fiverr nuovo, senza recensioni, in 7 giorni prende pochi ordini o nessuno. Lo apriamo comunque perché costa zero e lavora mentre facciamo A.
+Un account Fiverr nuovo, senza recensioni, in 7 giorni prende pochi ordini o nessuno. Costa zero e le recensioni restano: è il primo asset duraturo. Il primo ordine conta più del prezzo.
 Regole Fiverr sull'AI (help.fiverr.com, "Using AI on Fiverr"): l'uso dell'AI è permesso, ogni consegna deve essere personalizzata e avere input umano, e se il cliente chiede bisogna dichiarare l'uso dell'AI. Quindi: Claude scrive, **Manu rilegge sempre prima di consegnare**, e se il cliente chiede si risponde la verità.
 
 Nicchia scelta: **italiano**. Manu vive in Germania: niente gig in tedesco, perché non può controllarne la qualità. In inglese la concorrenza è infinita, in italiano molto meno, e Manu è madrelingua e può controllare la qualità.
