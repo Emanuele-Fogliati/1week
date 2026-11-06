@@ -43,6 +43,9 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
 
+### 06/11 (sera, pivot 3)
+- Manu boccia i servizi PM ("troppo di nicchia e saturo"). Preparate 3 proposte di prodotto in F-prodotti/proposte.md. Raccomandata: kit "Germania senza tedesco" (generatore gratuito di lettere in tedesco + kit PDF 14 €).
+
 ### 06/11 (sera, pivot 2)
 - Manu è **Product Manager / Product Owner**, inglese buono, a Monaco da 3 anni, sa usare l'AI, ok a 25 € di budget.
 - Cambia la gerarchia. **E nuovo e principale**: servizi PM a prezzo fisso (PRD 250 $, backlog 190 $, discovery 490 $, workflow AI 390 $), poi fractional PO mensile. Canali: LinkedIn di Manu, Upwork, Contra.
