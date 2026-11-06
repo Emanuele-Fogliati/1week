@@ -43,6 +43,10 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
 
+### 06/11 (sera, idea di Manu)
+- Idea: vetrina "di lusso" che rivende i profumi di tabaccheriadellaportaonline.sm con un piccolo ricarico. Verdetto: no. Sono soprattutto tester (rivendita bloccabile dal marchio, CGUE L'Oréal c. eBay 2011), il rivenditore si prende resi, garanzia, LUCID e IVA senza mai vedere la merce, il sito sembra una truffa e non esiste un programma di affiliazione.
+- Versione legale proposta: vendere a loro un redesign del sito (mockup + una sola email mirata al titolare). Alternativa: sito di offerte con affiliazione (saturo).
+
 ### 06/11 (sera, pivot 3)
 - Prototipo del generatore gratuito di disdette in tedesco pronto (6 tipi di contratto, traduzione italiana, stampa in PDF). In attesa della scelta di Manu.
 - Manu boccia i servizi PM ("troppo di nicchia e saturo"). Preparate 3 proposte di prodotto in F-prodotti/proposte.md. Raccomandata: kit "Germania senza tedesco" (generatore gratuito di lettere in tedesco + kit PDF 14 €).
