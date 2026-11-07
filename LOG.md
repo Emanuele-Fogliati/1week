@@ -17,6 +17,7 @@ Vincolo vero: Claude non può aprire account né incassare. Ogni euro passa da M
 | Giorno | Data, 20:00 | Totale € | Spese € | Netto € |
 |--------|-------------|----------|---------|---------|
 | 0 | ven 06/11 | 0 | 0 | 0 |
+| 1 | sab 07/11 | 0 | 0 | 0 |
 
 **Totale: 0 €**
 
