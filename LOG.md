@@ -45,7 +45,8 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ### 07/11
 - Mattina: Manu ha reso pubblico il repo e attivato Pages. Lanciata la pubblicazione del sito H.
-- **Test G partito**: Manu ha inviato l'email di proposta a Tabaccheria della Porta. Se non rispondono entro mer 12/11, un solo promemoria breve.
+- Sito H online: https://emanuele-fogliati.github.io/1week/
+- Test G: email alla tabaccheria pronta, **non ancora inviata** (in attesa di conferma di Manu).
 
 ### Notte 6-7/11 (autonomia piena)
 - Manu: "tenta anche 10 cose diverse, ho sempre la tua approvazione". Limiti che restano: legale, niente spam, niente azioni irreversibili a suo nome.
