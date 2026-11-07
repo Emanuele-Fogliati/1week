@@ -43,6 +43,10 @@ A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
 
+### 07/11
+- Mattina: Manu ha reso pubblico il repo e attivato Pages. Lanciata la pubblicazione del sito H.
+- **Test G partito**: Manu ha inviato l'email di proposta a Tabaccheria della Porta. Se non rispondono entro mer 12/11, un solo promemoria breve.
+
 ### Notte 6-7/11 (autonomia piena)
 - Manu: "tenta anche 10 cose diverse, ho sempre la tua approvazione". Limiti che restano: legale, niente spam, niente azioni irreversibili a suo nome.
 - GitHub: account collegato, ma alla Claude GitHub App manca l'accesso in scrittura al repo (403). Serve installarla sul repo.
