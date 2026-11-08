@@ -18,6 +18,7 @@ Vincolo vero: Claude non può aprire account né incassare. Ogni euro passa da M
 |--------|-------------|----------|---------|---------|
 | 0 | ven 06/11 | 0 | 0 | 0 |
 | 1 | sab 07/11 | 0 | 0 | 0 |
+| 2 | dom 08/11 | 0 | 0 | 0 |
 
 **Totale: 0 €**
 
@@ -43,6 +44,9 @@ Cosa tengo, ordinato per probabilità di incassare entro il 13/11:
 A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
+
+### 08/11
+- Nessuna novità da Manu: email alla tabaccheria e Gumroad ancora da fare. Sito online, nessuna promozione ancora partita.
 
 ### 07/11
 - Mattina: Manu ha reso pubblico il repo e attivato Pages. Lanciata la pubblicazione del sito H.
