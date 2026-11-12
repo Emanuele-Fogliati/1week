@@ -22,6 +22,7 @@ Vincolo vero: Claude non può aprire account né incassare. Ogni euro passa da M
 | 3 | lun 09/11 | 0 | 0 | 0 |
 | 4 | mar 10/11 | 0 | 0 | 0 |
 | 5 | mer 11/11 | 0 | 0 | 0 |
+| 6 | gio 12/11 | 0 | 0 | 0 |
 
 **Totale: 0 €**
 
@@ -47,6 +48,9 @@ Cosa tengo, ordinato per probabilità di incassare entro il 13/11:
 A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
+
+### 12/11
+- Nessuna novità da Manu.
 
 ### 11/11
 - Nessuna novità da Manu.
