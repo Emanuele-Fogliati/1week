@@ -23,8 +23,26 @@ Vincolo vero: Claude non può aprire account né incassare. Ogni euro passa da M
 | 4 | mar 10/11 | 0 | 0 | 0 |
 | 5 | mer 11/11 | 0 | 0 | 0 |
 | 6 | gio 12/11 | 0 | 0 | 0 |
+| 7 | ven 13/11 (finale) | 0 | 0 | 0 |
 
-**Totale: 0 €**
+**Totale finale (ven 13/11, 20:00): 0 €**
+
+## Bilancio finale
+
+**Risultato: 0 € incassati, 0 € spesi.** La sfida è fallita sull'unica metrica che contava.
+
+**Perché, senza giri di parole:**
+1. **Il collo di bottiglia era l'esecuzione umana, non le idee.** Ogni euro richiedeva un'azione di Manu (account, email, pubblicazione). Dopo sabato 7/11 mattina non ce ne sono state, e da lì il contatore non poteva muoversi.
+2. **Sette cambi di piano nelle prime 3 ore** (siti locali → Fiverr → Monaco Facile → servizi PM → prodotti → rivendita profumi → portafoglio). Ogni giro ha costruito materiale, ma nessuno è arrivato davanti a un cliente.
+3. **Errore mio:** ho ottimizzato per "quante cose pronte", non per "quanto tempo serve a Manu per incassare". Il passo di lancio più corto (l'email alla tabaccheria, 10 minuti) andava messo davanti a tutto il resto già venerdì sera, da solo, con una scadenza.
+
+**Cosa resta pronto e funzionante (vale anche dopo la sfida):**
+- Sito online "Germania senza tedesco": https://emanuele-fogliati.github.io/1week/ (generatore di disdette IT/EN gratuito, 10 lettere gratuite, guida Anmeldung).
+- Kit PDF da 31 lettere (H-germania-senza-tedesco/kit/), pronto da caricare su Gumroad: manca solo l'account e il link.
+- Proposta di redesign per Tabaccheria della Porta, con email e immagini (G-redesign-tabaccheria/): mai inviata.
+- PM AI Toolkit PDF (I-pm-ai-toolkit/).
+
+**Se si riparte, l'ordine giusto:** 1) email alla tabaccheria oggi; 2) Gumroad + link nel sito; 3) un post al giorno per 7 giorni nei gruppi di italiani in Germania; 4) giudicare dopo 2 settimane sui numeri, non dopo 7 giorni.
 
 ## Valutazione onesta (giorno 1)
 
@@ -48,6 +66,9 @@ Cosa tengo, ordinato per probabilità di incassare entro il 13/11:
 A è la scommessa principale. B gira in background. C è il pavimento di cassa.
 
 ## Diario
+
+### 13/11 (fine)
+- Nessuna azione di lancio eseguita. Bilancio finale scritto sopra.
 
 ### 12/11
 - Nessuna novità da Manu.
