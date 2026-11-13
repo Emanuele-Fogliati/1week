@@ -33,7 +33,7 @@ Vincolo vero: Claude non può aprire account né incassare. Ogni euro passa da M
 
 **Perché, senza giri di parole:**
 1. **Il collo di bottiglia era l'esecuzione umana, non le idee.** Ogni euro richiedeva un'azione di Manu (account, email, pubblicazione). Dopo sabato 7/11 mattina non ce ne sono state, e da lì il contatore non poteva muoversi.
-2. **Sette cambi di piano nelle prime 3 ore** (siti locali → Fiverr → Monaco Facile → servizi PM → prodotti → rivendita profumi → portafoglio). Ogni giro ha costruito materiale, ma nessuno è arrivato davanti a un cliente.
+2. **Cinque cambi di piano nelle prime 4 ore** (siti locali → Fiverr e Monaco Facile → servizi PM → prodotti → idea profumi → portafoglio). Ogni giro ha costruito materiale, ma nessuno è arrivato davanti a un cliente.
 3. **Errore mio:** ho ottimizzato per "quante cose pronte", non per "quanto tempo serve a Manu per incassare". Il passo di lancio più corto (l'email alla tabaccheria, 10 minuti) andava messo davanti a tutto il resto già venerdì sera, da solo, con una scadenza.
 
 **Cosa resta pronto e funzionante (vale anche dopo la sfida):**
